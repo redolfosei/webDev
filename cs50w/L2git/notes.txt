@@ -1,0 +1,36 @@
+new cmd learnt: cmd add all files and commit as well; 
+git commit -am 'message goes here' 
+
+git pull 
+git pull pulls the changes or repo on github to local machine;
+
+Merge conflict 
+merge conflict happens when there are two more changes 
+on a code...
+Merge conflict is resloved by manually observing the code and merging them right
+before pushing them back; 
+
+git log
+keep track of all changes you ve made in your code; 
+
+git reset 
+revert a current state to an older state
+git reset --hard <commit>
+git reset --hard origin/master
+
+branching helps work on different parts of the repo at the same time; 
+git branch - what branch user is currently on; 
+git checkout -b <nameOfNewBranch>
+git checkout <nameOfBranch> - switches to that branch 
+
+folking a repo:
+making your own copy of the original repo
+
+pull request:
+Requesting your code to be pushed in; 
+
+github pages;  
+free way to deploy your code; 
+
+
+

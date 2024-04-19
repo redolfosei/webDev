@@ -1,0 +1,6 @@
+list - sequent of mutable values 
+tuple - suquence of immuntable values 
+set - collection of unique values 
+dict - collection of key-value pairs 
+....
+
