@@ -1,0 +1,5 @@
+create a container in your browser 
+put a header maybe your name; 
+list activities 
+bring a checkout if the activities are completed or not, 
+change background of task when it's completed; 
