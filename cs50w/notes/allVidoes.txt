@@ -1,0 +1,11 @@
+
+
+
+
+
+lecture4: 
+SQL, Models, and Migrations: 
+https://video.cs50.io/YzP164YANAU?screen=VuB5TkTL3tM
+
+lecture5: 
+

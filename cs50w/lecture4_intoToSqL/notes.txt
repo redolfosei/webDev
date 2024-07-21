@@ -1,0 +1,53 @@
+video:
+https://video.cs50.io/YzP164YANAU?screen=VuB5TkTL3tM 
+
+notes:
+https://cs50.harvard.edu/web/2020/notes/4/
+
+slides:
+https://cdn.cs50.net/web/2020/spring/lectures/4/lecture4.pdf
+
+source code:
+https://cdn.cs50.net/web/2020/spring/lectures/4/src4.zip 
+
+subtitles:
+https://cdn.cs50.net/web/2020/spring/lectures/4/lang/en/lecture4.srt 
+
+
+
+inside your app's models.py file, create your class for the db models
+-python3 manage.py makemigrations 
+this cmd above creates a new file with instructions to create a new model to have the necessary fields. 
+-python3 manage.py migrate
+this cmd above applies the migration to django's db
+-python3 manage.py shell
+
+In [1]: from flights.models import Flight
+In [2]: f = Flight(origin="Accra", destination="Kumasi", duration=569)
+In [3]: f.save()
+In [4]: Flight.objects.all()
+Out[4]: <QuerySet [<Flight: Flight object (1)>]>
+
+steps to cause changes on your code to reflect in db
+-python3 manage.py makemigrations 
+-python3 manage.py migrate
+
+python3 manage.py shell
+In [1]: from flights.models import *
+In [4]: jfk = Airport(code="JFK", city="JohnK City")
+In [5]: jfk.save()
+lbr = Airport(code="lbr", city="London")
+lbr.save()
+...
+In [16]: f = Flight(origin=jfk, destination=lhr, duration=413)
+f.save()
+
+
+In [2]: Airport.objects.all() - this gets all added airport, all objects of the airports 
+In [3]: Airport.objects.filter(city="London")
+In [4]: Airport.objects.filter(city="London").first()
+In [5]: jfk = Airport.objects.get(city="London")
+
+To use the admin app, create administrative account 
+python3 manage.py createsuperuser 
+

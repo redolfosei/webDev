@@ -1,0 +1,48 @@
+Creating a Django app
+-first step is to install Django using pip 
+-pip3 install Django 
+-run a command to create project 
+-django-admin startproject PROJECT_NAME
+-manage.py will be used to manage the project 
+-settings.py contains important config settings for the application 
+-url.py is kind of table of content for the application 
+
+Django allows multiple applications. 
+Eg. Big sites like google have google search, google images etc 
+
+To create a Django app 
+-python3 manage.py startapp tasks
+-this will create an app in your project called tasks 
+
+To install the app created into the project  
+-go into settings.py in the project directory  and add app name 
+
+After adding app in settings, work on views of that app
+-eg go into hello app, go to views.py views are routes that users see
+-to create default view you do that with a function
+-if a particular url is visit the views will determine what should happen 
+
+Create urls.py this will tell the app when they should return the views 
+the project created has it's own urls.py but you can create for each app added
+-in your project folder go to urls.py and add path 
+-go into your new app and create your urls.py
+-in your urls.py from the app, specify url patterns 
+
+To run the application
+From your main project,
+-python3 manage.py runserver
+
+
+some django import I have used before:
+
+from django.urls import path
+from . import views
+from django.shortcuts import render
+from django.http import HttpResponse
+import datetime
+from django.contrib import admin
+from django.urls import include,path
+
+
+the project created has it's own urls.py but you can create for each app added
+
