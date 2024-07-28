@@ -1,0 +1,10 @@
+package.json file 
+contains meta data of the project. 
+
+dependencies hold what sources a dev is using. 
+
+scripts allows to define and execuses various scripts for a project 
+
+package-lock.json 
+a lock file that is automatically created to do away with conflicts with versions 
+
