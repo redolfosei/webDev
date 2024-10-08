@@ -1,0 +1,18 @@
+javascript is a technology we use to create a website; 
+it makes a website interactive; 
+
+https://supersimple.dev/js-basics 
+
+syntax - rules you have to follw when using a programming language 
+in programming, syntax needs to be follow 100% 
+
+https://supersimple.dev/projects/amazon/ 
+
+computer have a problem working with floats 
+0.1 + 0.2 
+
+when calculating money: 
+calculating in floats are sometimes inaccurate 
+the best practice is to do calculations in cents and convert back to dollar 
+by diviting by 100
+example (2095 + 799) / 100 
