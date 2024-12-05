@@ -1,0 +1,25 @@
+/* to select all child and grand-child  */
+  main div {
+  /* Our cool CSS */
+}
+
+/* The divs with the class "child" will get selected by this */
+main > div {
+  /* Our cool CSS */
+}
+
+/* The divs with the class "grand-child" will get selected by this */
+main > div > div {
+  /* More cool CSS */
+}
+
+/* Only the div with the classes "child group2" will get selected by this */
+.group1 + div {
+  /* Our cool CSS */
+  color:red;
+}
+
+/* Only the div with the classes "child group3" will get selected by this */
+.group1 + div + div {
+  /* More cool CSS */
+}
