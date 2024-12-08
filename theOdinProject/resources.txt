@@ -1,0 +1,6 @@
+Complex Selectors:: 
+https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+
+practice selectors::
+https://flukeout.github.io/ 
+
