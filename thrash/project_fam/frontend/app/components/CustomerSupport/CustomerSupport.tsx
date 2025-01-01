@@ -8,7 +8,7 @@ const CustomerSupport = () => {
     <div className='pt-[5rem] pb-[3rem]'>
       <div className='mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[4rem] items-center'>
         <div className='order-2 lg:order-1'>
-          <Image src={SupportImage}/>
+          <Image src={SupportImage alt="customesupportImage"}/>
         </div>
         <div className='order-1 lg:order-2'>
           <h1 className='text-[20px] md:text-[25px] lg:text-[28px] text-[#02073e] font-bold leading-[2rem] md:leading-[3rem]'>Our Customer Support is Just Excellent</h1>
